@@ -8,21 +8,20 @@ function Home() {
   return (
     <div className="home">
       <div className="about">
-        <h2> Hi, My Name is Ahmed</h2>
+        <h2> Hi, My Name is Ahmednpm</h2>
         <div className="prompt">
           <p>A software developer with a passion for learning and creating.</p>
           
-          {/* Link to your LinkedIn profile */}
+         
           <a href="https://www.linkedin.com/in/ahmed-raza-a974ab28a/" target="_blank" rel="noopener noreferrer">
             <LinkedInIcon />
           </a>
           
-          {/* Link to your Email */}
+   
           <a href="mailto:your.uniformedtornado@gmail.com">
             <EmailIcon />
           </a>
 
-          {/* Link to your GitHub profile */}
           <a href="https://github.com/amedraza123" target="_blank" rel="noopener noreferrer">
             <GithubIcon />
           </a>

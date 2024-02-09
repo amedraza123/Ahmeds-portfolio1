@@ -1,7 +1,7 @@
 import React from "react";
 import InstagramIcon from "@material-ui/icons/Instagram";
 import TwitterIcon from "@material-ui/icons/Twitter";
-import ChatIcon from "@material-ui/icons/Chat"; // Import the ChatIcon
+import ChatIcon from "@material-ui/icons/Chat"; 
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import "../styles/Footer.css";
 
