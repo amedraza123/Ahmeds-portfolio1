@@ -1,8 +1,5 @@
 import React from "react";
-import InstagramIcon from "@material-ui/icons/Instagram";
-import TwitterIcon from "@material-ui/icons/Twitter";
-import ChatIcon from "@material-ui/icons/Chat"; 
-import LinkedInIcon from "@material-ui/icons/LinkedIn";
+import { FaInstagram, FaTwitter, FaEnvelope, FaLinkedin } from 'react-icons/fa';
 import "../styles/Footer.css";
 
 function Footer() {
@@ -10,24 +7,22 @@ function Footer() {
     <div className="footer">
       <div className="socialMedia">
         <a href="https://www.instagram.com/your_instagram_username" target="_blank" rel="noopener noreferrer">
-          <InstagramIcon />
+          <FaInstagram />
         </a>
         <a href="https://twitter.com/ahmedrazaharis" target="_blank" rel="noopener noreferrer">
-          <TwitterIcon />
+          <FaTwitter />
         </a>
-        <a href="https://www.linkedin.com/in/ahmed-raza-a974ab28a/" className="phone-link">
-          
-          <ChatIcon />
+        <a href="mailto:uniformedtornado@gmail.com" className="phone-link">
+          <FaEnvelope />
         </a>
         <a href="https://www.linkedin.com/in/your_linkedin_username" target="_blank" rel="noopener noreferrer">
-          <LinkedInIcon />
+          <FaLinkedin />
         </a>
       </div>
-      <p>&copy; 2024 ahmedtech.com</p>
+      <p>&copy;  2024 ahmedtech.com</p>
     </div>
   );
 }
 
 export default Footer;
-
 

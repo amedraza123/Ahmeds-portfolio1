@@ -1,37 +1,33 @@
 import React from "react";
-import LinkedInIcon from "@material-ui/icons/LinkedIn";
-import EmailIcon from "@material-ui/icons/Email";
-import GithubIcon from "@material-ui/icons/GitHub";
+import { FaLinkedin, FaEnvelope, FaGithub } from 'react-icons/fa';
 import "../styles/Home.css";
 
 function Home() {
   return (
     <div className="home">
       <div className="about">
-        <h2> Hi, My Name is Ahmed</h2>
+        <h2>Hi, My Name is Ahmed</h2>
         <div className="prompt">
           <p>A software developer with a passion for learning and creating.</p>
           
-         
           <a href="https://www.linkedin.com/in/ahmed-raza-a974ab28a/" target="_blank" rel="noopener noreferrer">
-            <LinkedInIcon />
+            <FaLinkedin />
           </a>
           
-   
           <a href="mailto:your.uniformedtornado@gmail.com">
-            <EmailIcon />
+            <FaEnvelope />
           </a>
 
           <a href="https://github.com/amedraza123" target="_blank" rel="noopener noreferrer">
-            <GithubIcon />
+            <FaGithub />
           </a>
         </div>
       </div>
       <div className="skills">
-        <h1> Skills</h1>
+        <h1>Skills</h1>
         <ol className="list">
           <li className="item">
-            <h2> Front-End</h2>
+            <h2>Front-End</h2>
             <span>
               ReactJS, Angular, Redux, HTML, CSS, React Native, Flutter, NPM,
               Ionic, BootStrap, MaterialUI, Yarn, TailwindCSS, StyledComponents
@@ -55,3 +51,4 @@ function Home() {
 }
 
 export default Home;
+
