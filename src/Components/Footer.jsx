@@ -15,7 +15,7 @@ function Footer() {
         <a href="mailto:uniformedtornado@gmail.com" className="phone-link">
           <FaEnvelope />
         </a>
-        <a href="https://www.linkedin.com/in/your_linkedin_username" target="_blank" rel="noopener noreferrer">
+        <a href="https://www.linkedin.com/in/ahmed-raza-a974ab28a/" target="_blank" rel="noopener noreferrer">
           <FaLinkedin />
         </a>
       </div>
