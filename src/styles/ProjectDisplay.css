@@ -1,28 +1,82 @@
+@font-face {
+  font-family: 'Striper';
+  src: url('./public/fonts/Striper-Regular.woff2') format('woff2'),
+       url('./fonts/Striper-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Comico';
+  src: url('./public/fonts/Comico-Regular.woff2') format('woff2'),
+       url('./fonts/Comico-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
 .project {
-    width: 100%;
-    height: calc(100vh - 100px);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-  }
-  
-  .project h1 {
-    margin-top: 50px;
-    color: #374587;
-    font-size: 35px;
-  }
+  width:   100%;
+  height: calc(100vh -   100px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.project h1 {
+  margin-top:   50px;
+  color: #374587;
+  font-size:   35px;
+  font-family: 'Comico', Arial, sans-serif;
+}
+
+.project img {
+  width:   700px;
+  border-radius: 15px;
+}
+
+.project p {
+  font-size:   40px;
+  color: hsl(0, 1%, 21%);
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.project svg {
+  font-size:   60px;
+  color: hsl(238, 78%, 25%);
+  transition: transform   0.3s ease, color   0.3s ease; /* Add transition for smooth hover effect */
+}
+
+.icon-container {
+  display: flex;
+  justify-content: center;
+  gap:   25px; /* Adjust the gap between icons as needed */
+  margin-top:   20px; /* Add some space above the icons */
+}
+
+.icon-container a {
+  color: #7bcbe1; /* Adjust the color of the icons as needed */
+  text-decoration: none; /* Remove the underline from the links */
+}
+
+.icon-container a:hover {
+  color: #000000; /* Change the color on hover for better visibility */
+}
+
+.icon-container a:hover svg {
+  transform: scale(1.1); /* Scale up the icon on hover */
+  color: hsl(0, 0%, 0%); /* Change the color of the icon on hover */
+}
+
+@media only screen and (max-width: 1000px) {
   .project img {
-    width: 700px;
-    border-radius: 10px;
+    width: 100%;
   }
-  
+
   .project p {
-    font-size: 40px;
-    color: #3e497a;
+    font-size: 25px;
   }
-  
-  .project svg {
-    font-size: 60px;
-    color: #3e497a;
+
+  .icon-container {
+    gap: 15px;
   }
+}

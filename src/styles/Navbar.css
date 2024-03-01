@@ -1,7 +1,23 @@
+@font-face {
+  font-family: 'Plus Jakarta Sans';
+  src: url('./public/fonts/PlusJakartaSans-Bold.woff2') format('woff2'),
+       url('./fonts/plus-jakarta-sans-bold.woff') format('woff');
+  font-weight: bold; /* Set the font-weight to 'bold' */
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Striper';
+  src: url('./public/fonts/Striper-Regular.woff2') format('woff2'),
+       url('./fonts/Striper-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
 .navbar {
     width: 100%;
     height: 100px;
     background: #21325e;
+    
   }
   
   .links {
@@ -10,14 +26,15 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    color: white;
+    color: rgb(255, 255, 255);
   }
   
   .navbar a {
-    color: white;
+    color: rgb(255, 255, 255);
     text-decoration: none;
     margin: 20px;
     font-size: 25px;
+    font-family: 'Striper', Arial, sans-serif;
   }
   
   .toggleButton {
