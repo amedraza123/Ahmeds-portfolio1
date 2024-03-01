@@ -66,13 +66,13 @@
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  font-family: 'Striper', Arial, sans-serif;
+  font-family: 'Striper';
   
 }
 
 .skills h1 {
   color: hsl(0, 0%, 0%);;
-  font-family: 'Striper', Arial, sans-serif;
+  font-family: 'Striper';
 }
   
 
