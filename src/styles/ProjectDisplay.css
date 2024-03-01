@@ -1,17 +1,19 @@
 @font-face {
   font-family: 'Striper';
   src: url('./public/fonts/Striper-Regular.woff2') format('woff2'),
-       url('./fonts/Striper-Regular.woff') format('woff');
+       url('./public/fonts/Striper-Regular.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
+
 @font-face {
   font-family: 'Comico';
-  src: url('./public/fonts/Comico-Regular.woff2') format('woff2'),
-       url('./fonts/Comico-Regular.woff') format('woff');
+  src: url('./public/fonts/Comico-Regular.woff2') format('woff2'), /* Corrected the format for the first URL */
+       url('./public/fonts/Comico-Regular.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
+
 .project {
   width:   100%;
   height: calc(100vh -   100px);
